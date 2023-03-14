@@ -1,0 +1,21 @@
+.card1{
+    background-image: url('./components/Assets/guy.jpg');
+    background-size: 200px;
+    background-repeat: no-repeat;
+}
+.card2{
+    background-image: url('./components/Assets/girl.jpg');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card3{
+    background-image: url('./components/Assets/ad.jpg');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: inline;
+    
+}
+.card{
+    
+}
