@@ -30,7 +30,7 @@ class NavBar extends Component {
 							src={mtnLogo}
 							alt="MTN logo"
 						/>
-						<ul className="float-right px-4 list-reset flex justify-between flex-1 md:flex-none items-center">
+						<ul className="float-right px-4 list-reset font-bold flex justify-between flex-1 md:flex-none items-center">
 							{/* Add your links here */}
 
 							<li class="mr-0.5" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
@@ -38,18 +38,18 @@ class NavBar extends Component {
 
 							</li>
 
-							<li class="mr-0.5">
+							<li class="mr-0.5" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
 								<Link className="inline-block py-2 px-4 text-black hover:text-gray-50 no-underline" to="/store">Business</Link>
 							</li>
 
-							<li class="mr-0.5">
+							<li class="mr-0.5" >
 								<Link className="inline-block py-2 px-4 text-black no-underline hover:text-gray-50 " to="/device">Momo</Link>
 							</li>
-							<li class="mr-8 ml-0.5">
+							<li class="mr-8 ml-0.5" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
 								<Link className="inline-block py-2 px-4 text-black cursor-pointer hover:text-gray-50 no-underline" to="/price">VAS</Link>
 							</li>
 
-							<li class="mr-0.5">
+							<li class="mr-0.5" onMouseEnter={this.handleMouseEnter} onMouseLeave={this.handleMouseLeave}>
 								<Link className="inline-block py-2 px-4 text-black no-underline hover:text-gray-50 " to="">Investors</Link>
 							</li>
 							<li class="m-0">
@@ -72,8 +72,8 @@ class NavBar extends Component {
 							</div>
 						)}
 					</div>
-					<div className="flex justify-end mr-10 mt"> 
-				<input className="justify-end  border border-black rounded-full" placeholder="Search..."/></div>
+					<div className="flex justify-end mr-0 mt"> 
+				<input className="justify-end mr-0 border border-black rounded-full" placeholder="Search..."/></div>
 
 					
 			</div>

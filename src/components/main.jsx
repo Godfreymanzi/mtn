@@ -22,7 +22,7 @@ class Main extends Component {
                     </div>
                 </div>
                 <NavBar />
-                <header class="bg-white dark:bg-gray-900">
+                <header class="bg-yellow-400 dark:bg-gray-900">
                     <div class="container bg-yellow-400 flex flex-col px-6 py-4 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center">
                         <div class="flex flex-col bg-yellow-400 items-center w-full lg:flex-row lg:w-1/2">
                             <div class="flex justify-center order-2 mt-6 lg:mt-0 lg:space-y-3 lg:flex-col">
@@ -42,14 +42,15 @@ class Main extends Component {
                         </div>
 
                         <div class="flex items-center justify-center w-full h-96 lg:w-1/2">
-                            <img class="object-cover w-full h-full max-w-2xl rounded-md" src="https://scontent.fkgl3-1.fna.fbcdn.net/v/t1.6435-9/159436545_3733309766706393_539378609965818538_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=973b4a&_nc_ohc=mPZLNX_icJgAX-h2GkP&_nc_ht=scontent.fkgl3-1.fna&oh=00_AfDrt-yMxAMZ6KV4rVGepMvwzau-9lvs2_Q05N8zzD1Efw&oe=6436E2DE" alt="apple watch"></img>
+                            <img class="object-cover w-full h-full max-w-2xl rounded-md hover:shadow-md hover:shadow-gray-500" src="https://scontent.fkgl3-1.fna.fbcdn.net/v/t1.6435-9/159436545_3733309766706393_539378609965818538_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=973b4a&_nc_ohc=mPZLNX_icJgAX-h2GkP&_nc_ht=scontent.fkgl3-1.fna&oh=00_AfDrt-yMxAMZ6KV4rVGepMvwzau-9lvs2_Q05N8zzD1Efw&oe=6436E2DE" alt="apple watch"></img>
                         </div>
                     </div>
                     
                 </header>
-               <section>
-               <img className='mr-2' src='https://banner2.cleanpng.com/20180623/jta/kisspng-nigeria-mtn-group-globacom-etisalat-mobile-phones-etisalat-5b2e27f40fef96.3898762415297515400653.jpg' height='100' width='0' />
-               </section>
+                
+               <div>
+               <img className='mr-2 hover:shadow-md hover:shadow-gray-500' src='https://scontent.fkgl3-1.fna.fbcdn.net/v/t39.30808-6/335308379_1587985524962016_7267804256410130403_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2c4854&_nc_ohc=nTQ_ra9oYBwAX9HyrKw&_nc_ht=scontent.fkgl3-1.fna&oh=00_AfDlfb5ENzXFMHCE9LresfSOQ-6mYp440LmCjYHBVDzpxg&oe=6414937A' height='90' width='1900' />
+               </div>
 
 
 
@@ -59,41 +60,38 @@ class Main extends Component {
 
 
                         <div class="flex flex-col bg-yellow-400 items-center justify-start w-full max-w-sm mx-auto py-5">
-                            <div class=" card1 w-full h-72 mt-16 bg-white  bg-cover cursor-pointer rounded-lg hover:shadow-md hover:shadow-gray-500"></div>
+                            <div class=" card1 w-full h-72 mt-16 bg-cover cursor-pointer rounded-lg hover:shadow-md hover:shadow-gray-500"></div>
                             <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                                <h3 class="py-2 font-bold tracking-wide text-center bg-[#8B8000] text-gray-800 uppercase dark:text-white"> Tsinda Pe!</h3>
+                                {/* <h3 class="py-2 font-bold tracking-wide text-center bg-[#8B8000] text-gray-800 uppercase dark:text-white"> Tsinda Pe!</h3> */}
 
-                                <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+                                {/* <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
                                     <span class="font-bold text-gray-800 dark:text-gray-200">300 frw</span>
                                     <button class="px-2 py-1 text-xs font-semibold text-[#8B8000] uppercase transition-colors duration-300 transform bg-[#002242] rounded hover:bg-gray-700 hover:text-white dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">Ishyura na MOMO</button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
                         {/* second card */}
 
                         <div class="flex flex-col items-center justify-start w-full max-w-sm mx-auto py-5">
-                            <div class=" card2 w-full h-72 mt-16 bg-white  cursor-pointer  rounded-lg hover:shadow-md hover:shadow-gray-500"></div>
-                            <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
+                            <div class=" card2 w-full h-72 mt-16 cursor-pointer  rounded-lg hover:shadow-md hover:shadow-gray-500"></div>
+                            {/* <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
                                 <h3 class="py-2 font-bold tracking-wide text-center bg-[#8B8000] text-gray-800 uppercase dark:text-white">YOLO</h3>
 
-                                <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
-                                    <span class="font-bold text-gray-800 dark:text-gray-200">500 RWF</span>
-                                    <button class="px-2 py-1 text-xs font-semibold text-[#8B8000] uppercase transition-colors duration-300 transform bg-[#002242] rounded hover:bg-gray-700 hover:text-white dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">Ishyura na MOMO</button>
-                                </div>
-                            </div>
+                                 
+                            </div> */}
                         </div>
 
                         {/* third card */}
                         <div class="flex flex-col items-center justify-start w-full max-w-sm mx-auto py-5">
-                            <div class=" card3 w-full h-72 mt-14 bg-white  bg-cover cursor-pointer rounded-lg hover:shadow-md hover:shadow-gray-500"></div>
+                            <div class=" card3 w-full h-72 mt-14  bg-cover cursor-pointer rounded-lg hover:shadow-md hover:shadow-gray-500"></div>
                             <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">
-                                <h3 class="py-2 font-bold tracking-wide text-center bg-[#8B8000] text-gray-800 uppercase dark:text-white"></h3>
+                                {/* <h3 class="py-2 font-bold tracking-wide text-center bg-[#8B8000] text-gray-800 uppercase dark:text-white"></h3> */}
 
-                                <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+                                {/* <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
                                     <span class="font-bold text-gray-800 dark:text-gray-200"></span>
                                     <button class="px-2 py-1 text-xs font-semibold text-[#8B8000] uppercase transition-colors duration-300 transform bg-[#002242] rounded hover:bg-gray-700 hover:text-white dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">Ishyura na MOMO</button>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
 
@@ -139,11 +137,11 @@ class Main extends Component {
                                         <span class="text-sm text-gray-500 dark:text-gray-400">CTO, Robert Consultency</span>
                                     </div>
                                 </div>
-                                <p class="leading-loose text-[#002242] dark:text-gray-400 mt-8">
+                                {/* <p class="leading-loose text-[#002242] dark:text-gray-400 mt-8">
                                     “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
                                     tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
                                     aperiam dolorum, obcaecati corrupti aspernatur a.”.
-                                </p>
+                                </p> */}
                             </div>
 
                             <div class="p-8 bg-[#002242] bg-yellow-400 cursor-pointer shadow-black shadow-md border border-transparent rounded-lg">
@@ -157,11 +155,11 @@ class Main extends Component {
                                         <span class="text-sm text-[#8B8000]">CEO, Jeny Consultency</span>
                                     </div>
                                 </div>
-                                <p class="leading-loose mt-8 text-white">
+                                {/* <p class="leading-loose mt-8 text-white">
                                     “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
                                     tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
                                     aperiam dolorum, obcaecati corrupti aspernatur a.”.
-                                </p>
+                                </p> */}
                             </div>
 
                             <div class="p-8 border rounded-lg shadow-black shadow-md cursor-pointer dark:border-gray-700">
@@ -175,17 +173,17 @@ class Main extends Component {
                                         <span class="text-sm text-gray-500 dark:text-gray-400">Marketing Manager at Stech</span>
                                     </div>
                                 </div>
-                                <p class="leading-loose text-[#002242] dark:text-gray-400 mt-8">
+                                {/* <p class="leading-loose text-[#002242] dark:text-gray-400 mt-8">
                                     “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
                                     tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
                                     aperiam dolorum, obcaecati corrupti aspernatur a.”.
-                                </p>
+                                </p> */}
                             </div>
                         </section>
                     </div>
                 </section>
                 <Footer />
-
+            
             </>
         );
     }
